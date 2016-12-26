@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>L4d2_Server_Protector</display-name>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Showserverstatus</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Showserverstatus</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Addserver</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Addserver</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Action</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Action</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Setautorestart</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>servlet.Setautorestart</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Showserverstatus</servlet-name>
+    <url-pattern>/servlet/Showserverstatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Addserver</servlet-name>
+    <url-pattern>/servlet/Addserver</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Action</servlet-name>
+    <url-pattern>/servlet/Action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Setautorestart</servlet-name>
+    <url-pattern>/servlet/Setautorestart</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

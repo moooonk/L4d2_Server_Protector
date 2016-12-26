@@ -1,0 +1,13 @@
+[base]
+adminname=monk
+adminpassword=monk
+timeout_max=20
+ip=180.136.77.135
+[/base]
+
+[server]
+path=H:\SteamLibrary\SteamApps\common\Left 4 Dead 2 Dedicated Server\srcds.exe
+protect=1
+autorestart=21:20
+commandline=-console -game left4dead2 -insecure +map c2m1_highway -port 27015 +exec server.cfg
+[/server]
